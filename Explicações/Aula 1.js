@@ -38,12 +38,42 @@
 // }
 
 
-for(let i =0; i<10;i++){
-    console.log(i);
+// for(let i =0; i<10;i++){
+//     console.log(i);
+// }
+
+// let letras = ['a','b','c']
+// for(let i=0;i<letras.length;i++){
+//     console.log(letras[i])
+// }
+
+
+
+// // Função regular
+
+// function somar(a, b){
+//     return (a + b);
+// }
+
+// // Função anônima
+// const adicionar = function(a, b){
+//     return (a + b);
+// }
+
+// console.log(somar(5,91))
+// console.log(adicionar(5,9))
+
+
+// Função anônima declarada de forma tradicional
+
+const seguinteNum = function(n){
+    return (n + 1);
 }
 
-let letras = ['a','b','c']
-for(let i=0;i<letras.length;i++){
-    console.log(letras[i])
+// Arrow function
+
+const proximoNum = (n) => {
+    return (n + 1)
 }
 
+console.log(seguinteNum(4))
