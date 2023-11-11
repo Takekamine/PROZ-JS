@@ -1,0 +1,33 @@
+span{
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+section{
+    margin-top: 1rem;
+}
+
+#tempo{
+    color: black;
+    opacity: 100;
+}
+
+#elemento-clicado{
+    color: black;
+    opacity: 100;
+}
+
+#quadrado{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+}
+
+.spanNeutro{
+    opacity: 100;
+}
+
+.divNeutro{
+    opacity: 100;
+}
